@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+
+    <title>JOURNEE MONDIALE DE LA PAIX</title>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-grad-school.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+
+  </head>
+
+<body>
+
+   
+  <!--header-->
+  <header class="main-header clearfix" role="header">
+    <div class="logo flex-row align-items-center">
+      <!-- <a class="logo-container" href="#"><em>Grad</em> School</a> -->
+      <span style="font-family: 'Sacramento', cursive; font-size: 2.2rem;" class="text-white">Peace</span>
+      <a class="logo-container" href="#"></a>
+    </div>
+    <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
+    <nav id="menu" class="main-nav" role="navigation">
+      <ul class="main-menu">
+        <li><a class="translate-word" translate="accueil" href="#section1">Accueil</a></li>
+        <li class="has-submenu"><a class="translate-word" translate="evenements" href="#section2">Evenements</a>
+          <ul class="sub-menu">
+            <li><a class="translate-word" translate="recent" href="#section2">Récent</a></li>
+            <li><a class="translate-word" translate="rdv" href="#section3">Rendez-vous</a></li>
+          </ul>
+        </li>
+        <li><a class="translate-word" translate="historiques" href="#section4">Historiques</a></li>
+        <!-- <li><a href="#section5">Video</a></li> -->
+        <li><a class="translate-word" translate="propos" href="#section5" >A propos</a></li>
+        <li><a class="translate-word" translate="contact" href="#section6">Contact</a></li>
+        <li class="has-submenu"><a class="translate-word" translate="langue" href="#">langue</a>
+          <ul class="sub-menu">
+            <li onclick="i18next.changeLanguage('fr')"><a class="translate-word" translate="français" href="#">Français</a></li>
+            <li onclick="i18next.changeLanguage('en')"><a class="translate-word" translate="anglais" href="#">Anglais</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ***** Main Banner Area Start ***** -->
+  <section class="section main-banner" id="top" data-section="section1">
+      <video autoplay muted loop id="bg-video">
+          <!-- <source src="assets/images/course-video.mp4" type="video/mp4" /> -->
+          <source src="./AdobeStock_456173668_Video_HD_Preview.mp4" type="video/mp4" />
+      </video>
+
+      <div class="video-overlay header-text">
+          <div class="caption">
+            <div>
+              <p class="paix"><span class="translate-word" translate="peace"></span><br/><span class="felix">Félix Houphouet-Boigny</span></p>
+              <!-- <p class="paix">La paix n'est pas un vain mot, mais un comportement.<br/><span class="felix">Félix Houphouet-Boigny</span></p> -->
+            </div>
+              <div class="main-button">
+                  <!-- <div class="scroll-to-section"><a href="#section2">Discover more</a></div> -->
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- ***** Main Banner Area End ***** -->
+
+
+  <!-- <section class="features">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-12">
+          <div class="features-post">
+            <div class="features-content">
+              <div class="content-show">
+                <h4><i class="fa fa-pencil"></i>All Courses</h4>
+              </div>
+              <div class="content-hide">
+                <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet. Donec maximus elementum ex. Cras convallis ex rhoncus, laoreet libero eu, vehicula libero.</p>
+                <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet.</p>
+                <div class="scroll-to-section"><a href="#section2">More Info.</a></div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-12">
+          <div class="features-post second-features">
+            <div class="features-content">
+              <div class="content-show">
+                <h4><i class="fa fa-graduation-cap"></i>Virtual Class</h4>
+              </div>
+              <div class="content-hide">
+                <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet. Donec maximus elementum ex. Cras convallis ex rhoncus, laoreet libero eu, vehicula libero.</p>
+                <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet.</p>
+                <div class="scroll-to-section"><a href="#section3">Details</a></div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-12">
+          <div class="features-post third-features">
+            <div class="features-content">
+              <div class="content-show">
+                <h4><i class="fa fa-book"></i>Real Meeting</h4>
+              </div>
+              <div class="content-hide">
+                <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet. Donec maximus elementum ex. Cras convallis ex rhoncus, laoreet libero eu, vehicula libero.</p>
+                <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet.</p>
+                <div class="scroll-to-section"><a href="#section4">Read More</a></div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <section class="section why-us" data-section="section2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2 class="translate-word" translate="acteur">Acteurs et faits marquants</h2>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div id='tabs'>
+            <ul>
+              <li><a class="translate-word" translate="message-pr" href='#tabs-1'>Message du président Houphouet-Boigny</a></li>
+              <li><a class="translate-word" translate="prix-unesco" href='#tabs-2'>Prix UNESCO pour la paix</a></li>
+              <li><a class="translate-word" translate="action" href='#tabs-3'>Action ménée en Côte d'Ivoire</a></li>
+            </ul>
+            <section class='tabs-content'>
+              <article id='tabs-1'>
+                <div class="row">
+                  <div class="col-md-6">
+                    <img style="object-fit: cover;height: 100%;" src="assets/images/felix-houphouet-boigny.jpg" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <h4 class="translate-word" translate="paix-text-1">"La paix, ce n'est pas un vain mot, c'est un comportement."</h4><p>Feu Félix Houphouët Boigny,<i class="translate-word" translate="pr">1er président ivoirien.</i></p>
+                    <p class="translate-word" translate="paix-text">
+                      "La paix à l'intérieur des Etats africains ne doit reposer que sur la justice, la tolérance, le dialogue permanent, le respect de la personne humaine et de sa dignité, le respect des libertés, l'égalité entre tous les hommes. Mais si l'absence de dialogue signifie le mépris de l'homme, la confiscation des libertés, les jugements arbitraires, les exécutions sommaires, elle ne peut avoir d'autres conséquences que de susciter des oppositions décidées à tout tenter afin de renverser ces régimes d'oppression."
+                    </p> 
+                    <p class="translate-word" translate="sommet-8">8ème Sommet de l'OUA à Addis-Abéba, 22 juin 1971.</p>
+                  </div>
+                </div>
+              </article>
+              <article id='tabs-2'>
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="assets/images/Abiy Ahmed Ali.webp" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <h4 class="translate-word" translate="flx">Le prix Félix Houphouët Boigny-UNESCO pour la recherche de la paix 2019</h4>
+                    <p class="translate-word" translate="paix-text-2">créé en 1989, il se propose d’honorer les personnes vivantes, institutions ou organismes publics ou privés en activité ayant contribué de manière significative à la promotion, à la recherche, à la sauvegarde ou au maintien de la paix, dans le respect de la Charte des Nations Unies et de l’Acte constitutif de l’UNESCO. Parrainé par 120 pays, il a été adopté par la 25e session de la Conférence générale de l’UNESCO. en 2019, l'UNESCO  décerne le Prix Félix Houphouët-Boigny au Premier ministre éthiopien ABIY AHMED ALI pour son action pour la paix. Un appel à candidature a été lancer le 30 novembre 2021 pour l'édition 2022.</p> 
+                  </div>
+                </div>
+              </article>
+              <article id='tabs-3'>
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="assets/images/ado.webp" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <h4 class="translate-word" translate="gbabgo">"Le président de la république de Côte d'Ivoire accorde la grâce présidentielle à son prédécesseur LAURENT GBAGBO"</h4>
+                    <p class="translate-word" translate="ouatt">« Dans le souci de renforcer davantage la cohésion sociale, j’ai signé un décret accordant la grâce présidentielle à Monsieur Laurent Gbagbo, ancien Président de la République. J’ai également procédé au dégel de ses comptes et au paiement de ses arriérés de rentes viagères », a déclaré Alassane Ouattara.</p>
+                  </div>
+                </div>
+              </article>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section coming-soon" data-section="section3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7 col-xs-12">
+          <div class="continer centerIt">
+            <div>
+              <h4 class="translate-word" translate="peace-day">Journée nationale de la paix
+                <em class="translate-word" translate="peace-day-date">15 novembre 2022</em></h4>
+              <div class="counter">
+
+                <div class="days">
+                  <div class="value">91</div>
+                  <span class="translate-word" translate="day">Jours</span>
+                </div>
+
+                <div class="hours">
+                  <div class="value">08</div>
+                  <span class="translate-word" translate="hour">Heures</span>
+                </div>
+
+                <div class="minutes">
+                  <div class="value">39</div>
+                  <span class="translate-word" translate="minute">Minutes</span>
+                </div>
+
+                <div class="seconds">
+                  <div class="value">00</div>
+                  <span class="translate-word" translate="seconde">Secondes</span>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="right-content">
+            <div class="top-content">
+              <h6 class="translate-word" translate="register">Inscrivez-vous pour ne rien rater de cette journée</h6>
+            </div>
+            <form id="contact" action="" method="get">
+              <div class="row">
+                <div class="col-md-12">
+                  <fieldset>
+                    <input  name="name" type="text" class="form-control" id="name" placeholder="Nom" required="">
+                  </fieldset>
+                </div>
+                <div class="col-md-12">
+                  <fieldset>
+                    <input name="email" type="text" class="form-control" id="email" placeholder="Email" required="">
+                  </fieldset>
+                </div>
+                <div class="col-md-12">
+                  <fieldset>
+                    <input name="phone-number" type="text" class="form-control" id="phone-number" placeholder="Telephone" required="">
+                  </fieldset>
+                </div>
+                <div class="col-md-12">
+                  <fieldset>
+                    <button type="submit" id="form-submit" class="button">m'inscrire</button>
+                  </fieldset>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section courses" data-section="section4">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2>Nos Historiques</h2>
+          </div>
+        </div>
+        <div class="owl-carousel owl-grid owl-theme">
+          <div class="item card">
+            <div class="history-image">
+              <img src="assets/images/2021.jpg" alt="Historiques #1">
+            </div>
+            <div class="down-content">
+              <h4>2021: "LE PREMIER MINISTRE PATRICK ACHI PREND PART A UNE MESSE A LA BASILIQUE DE YAMOUSSOUKRO"</h4>
+              <p>Le Premier Ministre ivoirien, Patrick Achi, a pris part le 14 novembre 2021 à Yamoussoukro à la messe officiée à la Basilique Notre Dame de la Paix pour la commémoration de la 25è édition de la Journée Nationale de la Paix (JNP). </p>
+              <div class="author-image">
+                <!--<img src="assets/images/01.webp" alt="Author 1">-->
+              </div>
+              <div class="text-button-pay">
+               <!--<a href="#">Pay <i class="fa fa-angle-double-right"></i></a>-->
+              </div>
+            </div>
+          </div>
+          <div class="item card">
+            <div class="history-image">
+              <img src="assets/images/2020.jpeg" alt="Historiques #2">
+            </div>
+            <div class="down-content">
+              <h4>2020: "Célébration de la 23ème journée nationale de la paix"</h4>
+              <p>Cette commémoration, pour l’Eglise de Côte d’Ivoire, a été entre autres marquée par une célébration eucharistique présidée par le cardinal JeanPierre Kutwa, à la paroisse Saint Jacques de Codody.</p>
+              <div class="author-image">
+                <!--<img src="assets/images/author-02.webp" alt="Author 2">-->
+              </div>
+              <!--<div class="text-button-free">
+                <a href="#">Free <i class="fa fa-angle-double-right"></i></a>
+              </div>-->
+            </div>
+          </div>
+          <div class="item card">
+            <div class="history-image">
+              <img src="assets/images/2019.jpg" alt="Historiques #3">
+            </div>
+            <div class="down-content">
+              <h4>2019: "HAMED BAKAYOKO EXHORTE LES POPULATIONS A S’INSCRIRE DANS LE
+                PROCESSUS DE RESTAURATION DU COUVERT FORESTIER"</h4>
+              <p> A l’occasion de la Journée nationale de la paix, le 15 novembre 2019 à Abidjan, le ministre d’Etat, ministre de la Défense, Hamed
+                Bakayoko a exhorté les populations à s’inscrire dans le processus de restauration du couvert forestier.</p>
+              <div class="author-image">
+                <!--<img src="assets/images/author-03.webp" alt="Author 3">-->
+              </div>
+              <!--<div class="text-button-pay">
+                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+              </div>-->
+            </div>
+          </div>
+          <div class="item card">
+            <div class="history-image">
+              <img src="assets/images/2018.jpg" alt="Historiques #4">
+            </div>
+            <div class="down-content">
+              <h4>2018: "LES IVOIRIENS INVITES A UNE CULTURE QUOTIDIENNE DE LA PAIX"</h4>
+              <p>Dabou (Sud-Ouest), le 15 novembre 2018 - Lors de la célébration officielle de la 22è édition de la Journée Nationale de la Paix couplée avec le planting d’arbre sur le plan national, la ministre ivoirienne en charge de la Solidarité et de la Cohésion sociale, Mariatou Koné, a invité tous les Ivoiriens à une culture quotidienne de la paix pour un développement durable du pays.</p>
+              <div class="author-image">
+                <!--<img src="assets/images/author-04.webp" alt="Author 4">-->
+              </div>
+              <!--<div class="text-button-free">
+                <a href="#">Free <i class="fa fa-angle-double-right"></i></a>
+              </div>-->
+            </div>
+          </div>
+          <div class="item card">
+            <div class="history-image">
+              <img src="assets/images/2017.jfif" alt="">
+            </div>
+            <div class="down-content">
+              <h4>2017: "PROJET DE DECLARATION DU GOUVERNEMENT"</h4>
+              <p>La 21ième édition célébrée le 15 novembre 2017 à Abidjan, autour du thème « La participation de tous à la sécurité, gage de paix » a été pour le Gouvernement ivoirien l’occasion de sensibiliser les populations, malgré leurs différences, à la culture de la paix et du vivre ensemble dans leur quotidien.</p>
+              <div class="author-image">
+                <!--<img src="assets/images/author-05.webp" alt="">-->
+              </div>
+              <!--<div class="text-button-pay">
+                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+              </div>-->
+            </div>
+          </div>
+          <div class="item card">
+            <div class="history-image">
+              <img src="assets/images/2016.jpg" alt="">
+            </div>
+            <div class="down-content">
+              <h4>2016: "Message du Président Soro Guillaume dans le cadre de la journée nationale de la paix"</h4>
+              <p>2016, cela fera 20 ans que la journée nationale de la paix est continuellement célébrée dans notre pays. Cette année de façon toute particulière, nous la fêtons dans le contexte d’une Nouvelle République fondée sur nos aspirations légitimes de réconciliation, de cohésion et d’émergence.</p>
+              <div class="author-image">
+                <!--<img src="assets/images/author-01.webp" alt="">-->
+              </div>
+              <!--<div class="text-button-free">
+                <a href="#">Free <i class="fa fa-angle-double-right"></i></a>
+              </div>-->
+            </div>
+          </div>
+          <div class="item card">
+            <div class="history-image">
+              <img src="assets/images/2015.jpg" alt="">
+            </div>
+            <div class="down-content">
+              <h4>2015: " JOURNEE NATIONALE DE LA PAIX: 45 ARTISANS DE LA PAIX DISTINGUES A AGBOVILLE"</h4>
+              <p>A cette occasion, quarante-cinq personnalités politiques, administratives, coutumières, religieuses et des leaders communautaires de Côte d’Ivoire ont été distingués dimanche à Agboville, par la ministre de la Solidarité de Famille, de la Femme et de l’Enfant,Anne Désirée Ouloto.</p>
+              <div class="author-image">
+                <!--<img src="assets/images/author-02.webp" alt="">-->
+              </div>
+              <!--<div class="text-button-free">
+                <a href="#">Free <i class="fa fa-angle-double-right"></i></a>
+              </div>-->
+            </div>
+          </div>
+          <div class="item card">
+            <div class="history-image">
+              <img src="assets/images/2014.jpg" alt="">
+            </div>
+            <div class="down-content">
+              <h4>2014: "JOURNÉE MONDIALE DE LA PAIX : LA DÉCLARATION DU MINISTRE ANNE OULOTO AU NOM DU GOUVERNEMENT"</h4>
+              <p>La Côte d’Ivoire commémore ce samedi 15 novembre 2014, la Journée Nationale de la Paix, instituée par décret n°96-205 du 07 mars 1996 et qui fait écho à la
+                Journée Internationale de la Paix, fixée au 21 septembre de chaque année par la Résolution 55/282 du 28 septembre 2001 de l’Assemblée Générale des Nations
+                Unies. </p>
+              <div class="author-image">
+                <!--<img src="assets/images/author-03.webp" alt="">-->
+              </div>
+              <!--<div class="text-button-pay">
+                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+              </div>-->
+            </div>
+          </div>
+          <div class="item card">
+            <div class="history-image">
+              <img src="assets/images/20130.jpg" alt="">
+            </div>
+            <div class="down-content">
+              <h4>2013: "L’ONUCI AUX CÔTÉS DES IVOIRIENS DE FODONITHION ET TABOU POUR CÉLÉBRER LA JOURNÉE NATIONALE DE LA PAIX"</h4>
+              <p>Dans le cadre de son appui au processus de réconciliation, l'Opération des Nations Unies en Côte d'Ivoire (ONUCI), a appuyé la célébration de la Journée nationale de la Paix, ce vendredi 15 novembre 2013, à travers le pays, notamment à Fodonithion et à Tabou.</p>
+              <div class="author-image">
+                <!--<img src="assets/images/author-04.webp" alt="">-->
+              </div>
+              <!--<div class="text-button-pay">
+                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+              </div>-->
+            </div>
+          </div>
+          <div class="item card">
+            <div class="history-image">
+              <img src="assets/images/2012.jfif" alt="">
+            </div>
+            <div class="down-content">
+              <h4>2012: "Un programme de formation continue en Education à la culture de la paix"</h4>
+              <p>En 2012, le Ministère de l’Education Nationale et de l’Enseignement Technique de Côte d’Ivoire (MENET-FP) a fait appel à Graines de Paix afin de le soutenir dans la mise en place d’un programme de formation continue des enseignants du préscolaire et du primaire aux approches éducatives de l’Education à la culture de la paix.</p>
+              <div class="author-image">
+                <!--<img src="assets/images/author-05.webp" alt="">-->
+              </div>
+              <!--<div class="text-button-free">
+                <a href="#">Free <i class="fa fa-angle-double-right"></i></a>
+              </div>-->
+            </div>
+          </div>
+          <div class="item card">
+            <div class="history-image">
+              <img src="assets/images/2011.jpg" alt="">
+            </div>
+            <div class="down-content">
+              <h4>2011: "La Côte d'Ivoire célèbre la journée nationale de la paix dans la sobriété"</h4>
+              <p>Le 15 novembre, décrété "Journée nationale de la paix" depuis 1996 en Côte d'Ivoire, a été célébré mardi dans la sobriété dans le pays.Aucune manifestation officielle n'a été organisée, contrairement aux années précédentes où cette célébration donnait lieu à des festivités.</p>
+              <div class="author-image">
+                <!--<img src="assets/images/author-01.webp" alt="">-->
+              </div>
+              <!--<div class="text-button-pay">
+                <a href="#">Pay <i class="fa fa-angle-double-right"></i></a>
+              </div>-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="section video" data-section="section5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center">
+          <div class="left-content">
+            <h4 class="translate-word" translate="origin">Origine de la journée Nationale de la paix</h4>
+            <p class="translate-word" translate="international-day">La Journée nationale de la paix a été décidée en 1996 conformément au décret n°96-205 du 7 mars 1996.</a>
+            <br><br> <span class="translate-word" translate="first-day">Le 15 novembre a été décrété journée nationale de la paix en Côte d'Ivoire en 1996 par Henri Konan Bédié.</span></p>
+            <div class="main-button"><a class="translate-word" translate="see-more" rel="nofollow" href="https://www.africanewsquick.net/2021/11/15/journee-nationale-de-la-paix-2021-ce-que-bedie-demande-aux-ivoiriens/" target="_parent">Voir plus</a></div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <article class="video-item">
+            <img style="width:100%;object-fit:cover; object-position:center; " src="./assets/images/origine.webp" alt="Bedie">
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact" data-section="section6">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2 class="translate-word" translate="let">Laisser nous un message</h2>
+          </div>
+        </div>
+        <div class="col-md-6">
+        
+        <!-- Do you need a working HTML contact-form script?
+                	
+                    Please visit https://templatemo.com/contact page -->
+                    
+          <form id="contact" action="" method="post">
+            <div class="row">
+              <div class="col-md-6">
+                  <fieldset>
+                    <input name="name" type="text" class="form-control" id="name" placeholder="Nom" required="">
+                  </fieldset>
+                </div>
+                <div class="col-md-6">
+                  <fieldset>
+                    <input name="email" type="text" class="form-control" id="email" placeholder="Email" required="">
+                  </fieldset>
+                </div>
+              <div class="col-md-12">
+                <fieldset>
+                  <textarea name="message" rows="6" class="form-control" id="message" placeholder="Votre message..." required=""></textarea>
+                </fieldset>
+              </div>
+              <div class="col-md-12">
+                <fieldset>
+                  <button class="translate-word" translate="send" type="submit" id="form-submit" class="button">Envoyer</button>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+        
+        <div class="col-md-6">
+          <div id="map">
+            <img src="assets/images/plume.webp" width="100%" height="422px" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p><i class="fa fa-copyright"></i> Copyright 2022 by MARTER 1 BDGL  
+          
+           | Design: <a href="#" rel="sponsored" target="_parent">MASTER 1 BDGL</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/lottie/lottie.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/i18next/i18next.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/tabs.js"></script>
+    <script src="assets/js/video.js"></script>
+    <script src="assets/js/slick-slider.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+        //according to loftblog tut
+        $('.nav li:first').addClass('active');
+
+        var showSection = function showSection(section, isAnimate) {
+          var
+          direction = section.replace(/#/, ''),
+          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+          reqSectionPos = reqSection.offset().top - 0;
+
+          if (isAnimate) {
+            $('body, html').animate({
+              scrollTop: reqSectionPos },
+            800);
+          } else {
+            $('body, html').scrollTop(reqSectionPos);
+          }
+
+        };
+
+        var checkSection = function checkSection() {
+          $('.section').each(function () {
+            var
+            $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+            if (topEdge < wScroll && bottomEdge > wScroll) {
+              var
+              currentId = $this.data('section'),
+              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+              reqLink.closest('li').addClass('active').
+              siblings().removeClass('active');
+            }
+          });
+        };
+
+        $('.main-menu, .scroll-to-section').on('click', 'a', function (e) {
+          if($(e.target).hasClass('external')) {
+            return;
+          }
+          e.preventDefault();
+          $('#menu').removeClass('active');
+          showSection($(this).attr('href'), true);
+        });
+
+        $(window).scroll(function () {
+          checkSection();
+        });
+    </script>
+    <script>
+      const logoContainer= document.querySelector('.logo-container');
+      const peaceAnim=bodymovin.loadAnimation({
+        container: logoContainer, // the dom element that will contain the animation
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        path: './assets/lottie/lf30_editor_fqhdufgz.json' // the path to the animation json
+      });
+      // peaceAnim.addEventListener('complete',()=>{
+      //   // console.log('completed')
+      //   // peaceAnim.play()
+      //   peaceAnim.playSegments([29,61])
+      // })
+      // logoContainer.addEventListener('click',()=>{
+      //   // peaceAnim.pause()
+      // })
+    </script>
+    <script type="module">
+      // import i18next from './vendor/i18next/i18next.js';
+      import {resources} from './locale/resources.js';
+      i18next.init({
+          lng:'en',
+          fallbackLng: 'en',
+          debug: true,
+          resources: resources,
+        }, function(err, t) {
+          // init set content
+          updateContent();
+        });
+        function updateContent() {
+          const transletEl=document.querySelectorAll('.translate-word');
+          // .innerHTML=i18next.t('peace');
+          Array.from(transletEl).forEach(el => {
+            const data=el.getAttribute("translate");
+            el.innerHTML=i18next.t(data);
+          });
+        }
+
+        function changeLng(lng) {
+          i18next.changeLanguage(lng);
+        }
+
+        i18next.on('languageChanged', () => {
+          updateContent();
+        });
+
+    </script>
+
+    <style>
+      .owl-item{
+        height: 700px !important;
+        overflow: hidden;
+      }
+      .card{
+        height: 100% !important;
+      }
+      .down-content{
+        height: 400px !important;
+      }
+      .history-image{
+        /* border: 5px solid red; */
+        width: 100%;
+        height: 300px !important;
+      }
+      .history-image img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+      }
+      .logo-container svg{
+        width: 70px !important;
+        height: 70px !important;
+      }
+      .paix::before{
+        content: '\201C';
+        position: absolute;
+        left: -4rem;
+        top: 6rem;
+        font-size: 7em;
+        font-family: 'Alex Brush', cursive;
+        font-weight: 500;
+        z-index: 0;
+        color: white;
+        /* color: rgba(200,200,200,.8); */
+      }
+      .paix::after{
+        content: '\201C';
+        position: absolute;
+        right: -3rem;
+        bottom: 6rem;
+        transform: rotate(180deg);
+        font-size: 7em;
+        font-weight: 500;
+        font-family: 'Alex Brush', cursive;
+        z-index: 0;
+        color: white;
+        /* color: rgba(200,200,200,.8); */
+      }
+      @media (max-width: 980px){
+        .paix h1::before {
+          left: 0.02em;
+        }
+      }
+      @media (max-width: 980px){
+        .paix{
+          font-size: 1.8rem;
+          font-weight: 500;
+          padding: 20px 16%;
+          margin: 25px 0;
+          width: 100%;
+        }
+      }
+      .paix{
+        position: relative;
+        font-family: 'Sacramento', cursive;
+        display: inline-block;
+        font-size: 70px;
+        color: #fff;
+        padding: 60px 6% 40px;
+        line-height: 1em;
+        margin: 40px 10% 0;
+        width: 80%;
+      }
+      .felix{
+        position: absolute;
+        font-size: 18px !important;
+        color: #f5a425;
+        font-weight: 380 !important;
+        font-family: 'Montserrat',sans-serif;
+        right: 5rem;
+        bottom: 0rem;
+      }
+      
+    </style>
+</body>
+</html
