@@ -1,8 +1,8 @@
 /*
     
-TemplateMo 557 Grad School
+ateMo 557 Grad School
 
-https://templatemo.com/tm-557-grad-school
+https://atemo.com/tm-557-grad-school
 
 */
 
@@ -621,9 +621,10 @@ section.why-us {
 /* Coming Soon */
 
 section.coming-soon {
-    background: linear-gradient(rgba(23, 34, 56, 0.39),rgba(23, 34, 56, 0.39)), url(../images/col.webp);
+    background: linear-gradient(rgba(23, 34, 56, 0.39),rgba(23, 34, 56, 0.39)), url(../images/bas.webp);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     padding: 120px 0px;
 }
 
